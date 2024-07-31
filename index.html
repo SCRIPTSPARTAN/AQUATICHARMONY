@@ -39,6 +39,7 @@
     *
     {
     font-family: "Titillium Web", sans-serif;
+
     }
     </style>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
@@ -50,6 +51,10 @@
     <!---CHATBOTCSS----->
     <link rel="stylesheet" href="static/css/chat.css" />
     <link rel="stylesheet" href="static/css/home.css" />
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -82,7 +87,7 @@
       <link rel="stylesheet" href="style.css">
       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     </head>
-    <body>
+    <body class="">
       <!-- ===============================================-->
       <!--    Main Content-->
       <!-- ===============================================-->
@@ -112,12 +117,13 @@
                   <a class="nav-link" href="./about/contact.html" style="color: white;">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="../AQUATICHARMONY/about/foam.html" style="color: white;">Our Stories</a>
+                  <a class="nav-link" href="about/foam.html" style="color: white;">Our Stories</a>
                 </li>
+                
               </ul>
             </div>
           </div>
-          <button type="button" class="btn" style="background-color: white;">DONATE</button>
+         <!--  <button type="button" class="btn" style="background-color: white;">DONATE</button> -->
           <!-- <button type="button" class="donate"><form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_OZobsM8OjSabeY" async> </script></form></button> -->
           
         </div>
@@ -133,7 +139,10 @@
           <div class="row min-vh-100 flex-center">
             <div class="col-auto text-center">
               <p class="font-italic p-0 mb-2 text-white fs-1 text-base" data-zanim-xs='{"delay":0.7,"duration":0.7,"ease":"Power2.easeOut","from":{"y":20,"opacity":0},"to":{"y":0,"opacity":1}}'>Success Stories</p>
-              <h2 class="text-uppercase text-white mb-md-5 mb-4 font-weight-extra-bold fs-3 fs-md-3 fs-lg-4 ls-1 pt-1" data-zanim-xs='{"delay":0,"duration":1,"ease":"Sine.easeInOut","from":{"letterSpacing":"0.25em","opacity":0},"to":{"letterSpacing":"0.05em","opacity":1}}'>start with you</h2><button class="btn btn-primary rounded-capsule mt-3 ls fs--1" data-zanim-xs='{"delay":1.2,"duration":0.7,"ease":"Power2.easeOut","from":{"y":-20,"opacity":0},"to":{"y":0,"opacity":1}}' style="background-color: #033150;border-color: white;">Learn More</button>
+              <h2 class="text-uppercase text-white mb-md-5 mb-4 font-weight-extra-bold fs-3 fs-md-3 fs-lg-4 ls-1 pt-1" data-zanim-xs='{"delay":0,"duration":1,"ease":"Sine.easeInOut","from":{"letterSpacing":"0.25em","opacity":0},"to":{"letterSpacing":"0.05em","opacity":1}}'>start with you</h2>
+
+            <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_OZobsM8OjSabeY" async> </script> </form>
+
               </div><a class="text-white down-arrow" href="#secondsection" data-fancyscroll><span class="indicator-home-arrow" data-zanim-xs='{"ease":"Back.easeOut","delay":1.95,"duration":0.4,"from":{"y":0,"opacity":0},"to":{"y":16,"opacity":1}}'></span><span class="indicator-home-arrow" data-zanim-xs='{"ease":"Back.easeOut","delay":2.2,"duration":0.4,"from":{"y":0,"opacity":0},"to":{"y":10,"opacity":1}}'></span></a>
             </div>
             </div><!-- end of .container-->
@@ -171,7 +180,9 @@
                     <br><br>
                     <h6 class="card-subtitle mb-2" style="color: white;">A CHARITY FOR THE HAPPY EARTH</h6><br>
                     <p class="card-text">Help save our oceans with sustainable, eco-friendly gear that nurtures our blue planet. 20% of proceeds fund PADI AWARE Foundation’s mission to drive local action for global ocean conservation and create a balance between humanity and the ocean. </p>
-                    <button type="button" class="btn btn-lg" style="background-color: white;color: black;"><form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_OZobsM8OjSabeY" async> </script> </form></button>
+
+                    <button type="button" class="btn btn-lg" ><form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_OZobsM8OjSabeY" async> </script> </form></button>
+
                   </div>
                 </div>
                 </center>
